@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+.main-header {
+  width: 100%;
+  background: greenyellow;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 100px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 3px 0px;
+}
+
+.main-nav__item a:hover,
+main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: red;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: red;
+  background: white;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+}
+
+.button {
+  color: white;
+  background: #184904;
+  border: solid 1px #369710;
+  border-radius: 8px;
+  font: inherit;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: white;
+  color: #184904;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.main-footer {
+  background: black;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0px 0px 0px;
+}
+
+.main-footer-ul {
+  list-style: none;
+}
+
+.main-footer-li {
+  display: inline-block;
+  margin: 15px 15px;
+}
+
+.main-footer-a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.main-footer-a:hover,
+.main-footer-a:active {
+  color: gray;
+}
