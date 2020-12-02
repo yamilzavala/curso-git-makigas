@@ -1,0 +1,59 @@
+main {
+}
+
+.package {
+  background: #acfab7;
+  border: solid 3px rgb(9, 73, 9);
+  border-left: none;
+  margin: 15px 0px;
+  width: 80%;
+}
+
+.package a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.package__title {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.package__subtitle {
+  color: gray;
+}
+
+.package__info {
+  border: solid 1px black;
+  color: black;
+  background: white;
+  padding: 15px;
+}
+
+#plus {
+  background: #bde9e9;
+}
+
+#free {
+  background: #bde9e9;
+}
+
+#premium {
+  background: #273f16;
+}
+
+#premium .package__title {
+  color: white;
+}
+
+#premium .package__subtitle {
+  color: rgb(185, 179, 179);
+}
+
+section:hover,
+section:active {
+  box-shadow: 3px 3px 3px rgb(rgba(148, 133, 133, 0.295));
+  border: solid 3px rgb(226, 117, 123);
+}
