@@ -22,7 +22,7 @@ git reset --soft HEAD~1 (deshace el ultimo commit)
 #Branch
 git branch (lista branches)
 git checkout toNameBranch (cambia de branch)
-git checkout -b newNameBranch (crea nuevo branch en base al branch actual)
+git checkout -b newNameBranch (crea nuevo branch en base al branch actual y nos posiciona en dicho branch)
 git branch nameBranch (crea nuevo branch en base al branch actual)
 git merge nameBranchToMerge (mergea cambios desde branch actual a branch especificado en nameBranchToMerge)
 git branch -D nameBranch (elimina branch especificado)
