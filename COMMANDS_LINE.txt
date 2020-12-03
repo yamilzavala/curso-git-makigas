@@ -1,0 +1,36 @@
+#Comandos GitHub (Comandos para conexion entre repo de github y reposotorio local)
+git clone urlRepoGitHub (clona repo)
+git push origin main (pushea cambios a repo)
+git remote -v (lista repos remotos)
+git pull origin main (obtiene cambios desde repo remoto)
+
+#Comandos Git (Comandos parareposotorio local)
+#Initialization
+git init (inicializa repo local)
+gir status (status de branch actual)
+
+#Commits
+git add. (agrega cambios al staging area)
+git commit -m "description" (agrega commit)
+git commit -am "description" (agrega commit sin haber hecho un git add .)
+git log (lista todos los commits)
+git checkout
+git checkout -- .
+git reset --hard 
+git reset --soft HEAD~1 (deshace el ultimo commit)
+
+#Branch
+git branch (lista branches)
+git checkout toNameBranch (cambia de branch)
+git checkout -b newNameBranch (crea nuevo branch en base al branch actual)
+git merge nameBranchToMerge (mergea cambios desde branch actual a branch especificado en nameBranchToMerge)
+git branch -D nameBranch (elimina branch especificado)
+
+#Nota
+Para agregar una nuevas caracteristicas:
+crearse un nuevo branch
+Agregar todos los cambios
+Comitear los cambios
+Pasarse al branch base 
+Hacer un merge desde el branch donde se agregaron los cambios
+Borrar el branch creado para agregar los cambios 
