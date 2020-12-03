@@ -11,6 +11,7 @@ gir status (status de branch actual)
 
 #Commits
 git add. (agrega cambios al staging area)
+git add -p nameFile (agregado parcial de un archivo - hay que confirmar que partes del archivo se quieren aguregar al add)
 git commit -m "description" (agrega commit)
 git commit -am "description" (agrega commit sin haber hecho un git add .)
 git log (lista todos los commits)
@@ -18,6 +19,7 @@ git checkout
 git checkout -- .
 git reset --hard 
 git reset --soft HEAD~1 (deshace el ultimo commit)
+git reset HEAD . (deshace los ultimos cambios del ultimo comit)
 
 #Branch
 git branch (lista branches)
