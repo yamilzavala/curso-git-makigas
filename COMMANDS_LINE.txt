@@ -4,7 +4,7 @@ git push origin main (pushea cambios a repo)
 git remote -v (lista repos remotos)
 git pull origin main (obtiene cambios desde repo remoto)
 
-#Comandos Git (Comandos parareposotorio local)
+#Comandos Git (Comandos para reposotorio local)
 #Initialization
 git init (inicializa repo local)
 gir status (status de branch actual)
@@ -22,15 +22,16 @@ git reset --soft HEAD~1 (deshace el ultimo commit)
 #Branch
 git branch (lista branches)
 git checkout toNameBranch (cambia de branch)
-git checkout -b newNameBranch (crea nuevo branch en base al branch actual)
+git checkout -b newNameBranch (crea nuevo branch en base al branch actual y nos posiciona en dicho branch)
+git branch nameBranch (crea nuevo branch en base al branch actual)
 git merge nameBranchToMerge (mergea cambios desde branch actual a branch especificado en nameBranchToMerge)
 git branch -D nameBranch (elimina branch especificado)
 
 #Nota
 Para agregar una nuevas caracteristicas:
-crearse un nuevo branch
-Agregar todos los cambios
-Comitear los cambios
-Pasarse al branch base 
-Hacer un merge desde el branch donde se agregaron los cambios
-Borrar el branch creado para agregar los cambios 
+crearse un nuevo branch (git branch nuevoBranch)
+Agregar todos los cambios 
+Comitear los cambios (git commit -m "description")
+Pasarse al branch base (git checkout main)
+Hacer un merge desde el branch donde se agregaron los cambios (git merge nuevoBranch)
+Borrar el branch creado para agregar los cambios (git branch -D nuevoBranch)
